@@ -28,7 +28,7 @@ const SideBar: React.FC = () => {
     id: "confirmed",
     title: "Confirmed",
     icon: "📊",
-    path: "/stats/confirmed",
+    path: "/",
     hasDropdown: false,
   },
   {

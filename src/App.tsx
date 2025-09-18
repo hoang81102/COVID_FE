@@ -2,7 +2,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Routes, Route } from "react-router-dom";
 
-import SideBar from "./page/SideBar";
+
 import Confirmed from "./components/Confirmed";
 import Active from "./components/Active";
 import Recovered from "./components/Recovered";
@@ -13,8 +13,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<SideBar />} />
-        <Route path="/stats/confirmed" element={<Confirmed />} />
+        <Route path="/" element={<Confirmed />} />
         <Route path="/stats/active" element={<Active />} />
         <Route path="/stats/recovered" element={<Recovered />} />
         <Route path="/stats/deaths" element={<Deaths />} />
