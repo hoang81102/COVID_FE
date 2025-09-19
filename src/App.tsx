@@ -11,6 +11,7 @@ import DailyIncrease from "./components/DailyIncrease";
 import DeathsTree from "./components/DeathsTree";
 import ConfirmedTree from "./components/ConfirmedTree";
 import RecoveredTree from "./components/RecoveredTree";
+import ActiveTree from "./components/ActiveTree";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Confirmed />} />
         <Route path="/tree" element={<ConfirmedTree />} />
         <Route path="/stats/active" element={<Active />} />
+        <Route path="/stats/activetree" element={<ActiveTree />} />
         <Route path="/stats/recovered" element={<Recovered />} />
         <Route path="/stats/recoveredtree" element={<RecoveredTree />} />
         <Route path="/stats/deaths" element={<Deaths />} />

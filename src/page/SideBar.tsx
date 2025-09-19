@@ -40,9 +40,16 @@ const SideBar: React.FC = () => {
   },
   {
     id: "active",
-    title: "Active",
+    title: "Activemap",
     icon: "🔥",
     path: "/stats/active",
+    hasDropdown: false,
+  },
+  {
+    id: "active",
+    title: "Activetree",
+    icon: "🔥",
+    path: "/stats/activetree",
     hasDropdown: false,
   },
   {
