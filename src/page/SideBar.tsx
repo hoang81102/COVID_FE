@@ -26,9 +26,16 @@ const SideBar: React.FC = () => {
   const menuItems: MenuItem[] = [
   {
     id: "confirmed",
-    title: "Confirmed",
+    title: "Confirmedmap",
     icon: "📊",
     path: "/",
+    hasDropdown: false,
+  },
+  {
+    id: "confirmedtree",
+    title: "Confirmedtree",
+    icon: "📊",
+    path: "/tree",
     hasDropdown: false,
   },
   {
@@ -40,16 +47,30 @@ const SideBar: React.FC = () => {
   },
   {
     id: "recovered",
-    title: "Recovered",
+    title: "Recoveredmap",
     icon: "💚",
     path: "/stats/recovered",
     hasDropdown: false,
   },
   {
+    id: "recoveredtree",
+    title: "Recoveredtree",
+    icon: "💚",
+    path: "/stats/recoveredtree",
+    hasDropdown: false,
+  },
+  {
     id: "deaths",
-    title: "Deaths",
+    title: "Deathsmap",
     icon: "⚰️",
     path: "/stats/deaths",
+    hasDropdown: false,
+  },
+  {
+    id: "deathstree",
+    title: "DeathsTree",
+    icon: "⚰️",
+    path: "/stats/deathstree",
     hasDropdown: false,
   },
   {
